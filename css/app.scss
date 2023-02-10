@@ -1,0 +1,40 @@
+.radius {
+    border-radius: 10px;
+}
+
+.highlight-secondary {
+    color: $secondary;
+}
+
+main {
+    max-width: 1160px;
+    margin: auto;
+
+    .wrapper-page {
+        width: 100%;
+    }
+
+    a.link > span {
+        display: inline-block;
+        font-size: 15px;
+        line-height: 15px;
+        color: $secondary;
+        padding-bottom: 4px;
+        border-bottom: 1px solid transparent;
+        transition: 0.2s linear;
+
+        &:hover {
+            border-bottom: 1px solid $secondary;
+            cursor: pointer;
+        }
+    }
+}
+
+.border {
+    border: 5px solid $border-color;
+}
+
+.q-loading-bar {
+    background-color: $secondary;
+}
+// app global css in SCSS form
