@@ -1,0 +1,145 @@
+identifiant o2switch :
+rgleveau
+c*aPEt4@KW$*S47
+
+commande rsync:
+rsync -av ./ wcms9403@ramius.o2switch.net:~/portfolio --include=public/build --include=public/.htaccess --exclude="."
+
+
+commandeJWT:
+openssl genpkey -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096 -out config/jwt/private.pem
+openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout
+
+mot de passe cle ssh
+9DR*S2l2fwt+
+
+connexion db
+jK[O+Sa-Ak^M
+
+
+connesion adresse mail cpanel
+Bt2a7tX-VF=}
+
+Identifiant : wcms9403
+Mot de passe : t7JZ-wSU6-9Sd!
+cPanel : https://ramius.o2switch.net:2083
+
+
+connexion fileZila
+Identifiant : wcms9403
+Mot de passe : t7JZ-wSU6-9Sd!
+Hôte de connexion FTP : ramius.o2switch.net
+
+
+psql -U wizardsAlley -d wizards_alley
+php bin/console lexik:jwt:generate-keypair
+
+
+identifiant base de donné wordpresse
+
+nom de la base: wcms9403_wp920
+identifiant:wcms9403_wp920
+mdp:S08Ft)1[3p
+adresse db: ramius.o2switch.net
+
+nom de la base: wcms9403_wp921
+identifiant:wcms9403_wp921
+mdp:S08Ft)1[3p
+adresse db: ramius.o2switch.net
+
+connexion worpress admin
+
+identifiant: alizeeCalandreau
+mdp: hxl9cWYbt%uWFTAgaL
+
+secondCarat
+id:alizeecalandreau
+mdp:u&q%lpd6i!C)aGj0Eu
+
+DB
+psql -U wizardsAlley -d wizards_alley
+
+
+site remy
+identifiant : admin
+mdp:6^GikZR2IU4xQLYagU
+
+
+Monsieur  gleveau  remy
+Votre inscription a été réalisée le 15 décembre 2022 sous le numéro 20223490068989.
+Ce numéro d'abonné vous est personnel et doit le rester.
+
+wizard *$5%Wc0Rct
+
+Plesk:
+remy@wizards-alley.com
+x6g8b^oiVRy
+
+FTP:
+remywizardsalley
+z3#vV5dDF@L
+
+BDD Works:
+wizardsalleyworks
+pVAV&zyXx6j
+
+BDD Portus (v2):
+wizardsalleyportus
+pVAV&zyXx6j
+
+
+
+wizard o2switsh:
+ftp : hot flacon.o2switch.net
+pseudo:remy@wisards-alley.com
+mdp:z3#vV5dDF@L
+
+
+phpmyadmin: https://flacon.o2switch.net:2083/cpsess0044268662/3rdparty/phpMyAdmin/index.php
+
+sc1hxkj3960_remy
+mdp:z3#vV5dDF@L
+
+
+
+mdr wisard local:
+WtestAdmin23
+
+Se connecter en tant que root : sudo su
+
+Se déplacer dans le back de la prod : cd /home/evolutrans/volupaldiffusion/symfony
+
+Mettre à jour le code du back : git pull
+
+se déplacer dans le front de la prod : cd /home/evolutrans/volupaldiffusion/nuxtjs
+
+Mettre à jour le code du front: git pull
+
+Se déplacer dans le projet prod : cd /home/evolutrans/volupaldiffusion
+
+Regénérer le front : ./update.sh
+
+Vider le cache du back : ./bin/console c:c
+
+
+2858649789
+
+
+prochoc db
+
+id=pro-choc_com
+password =bXe389CXzuNwh5D
+
+
+paypal => X4jDNptX@63Stzkn
+
+
+pm2 start npm --name "ProChoc" -- run start
+pm2 start index.js a faite dans le dossier webhook
+
+JJTuPr7w5uFB
+
+
+pod = /usr/bin/php8.1 bin/console d:m:diff
+
+php8.1 /usr/local/bin/composer update
