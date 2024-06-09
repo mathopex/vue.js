@@ -65,10 +65,6 @@ identifiant : admin
 mdp:6^GikZR2IU4xQLYagU
 
 
-Monsieur  gleveau  remy
-Votre inscription a été réalisée le 15 décembre 2022 sous le numéro 20223490068989.
-Ce numéro d'abonné vous est personnel et doit le rester.
-
 wizard *$5%Wc0Rct
 
 Plesk:
@@ -143,3 +139,5 @@ JJTuPr7w5uFB
 pod = /usr/bin/php8.1 bin/console d:m:diff
 
 php8.1 /usr/local/bin/composer update
+
+
