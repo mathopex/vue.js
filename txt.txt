@@ -140,4 +140,6 @@ pod = /usr/bin/php8.1 bin/console d:m:diff
 
 php8.1 /usr/local/bin/composer update
 
+# pm2 restart nuxt-app --update-env (force pm2 a utilisé la version de node utilisé avec nvm)
 
+# pm2 start npm --name "nuxt-app" -- start -- --port 3002 --update-env
